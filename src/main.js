@@ -9,7 +9,7 @@ import Material from '@primeuix/themes/material';
 import { definePreset } from '@primeuix/themes';
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
-import {Avatar, Button, Card, Divider, Drawer, Message, SelectButton, Toolbar, Tooltip} from "primevue";
+import {Avatar, Button, Card, Divider, Drawer, InputNumber, Message, Select, SelectButton, Toolbar, Tooltip} from "primevue";
 
 /**
  * application composition root with material preset tuned to the astara dark minimal style
@@ -33,7 +33,9 @@ createApp(App)
     .component('pv-card', Card)
     .component('pv-divider', Divider)
     .component('pv-drawer', Drawer)
+    .component('pv-input-number', InputNumber)
     .component('pv-message', Message)
+    .component('pv-select', Select)
     .component('pv-select-button', SelectButton)
     .component('pv-toolbar', Toolbar)
     .directive('tooltip', Tooltip)

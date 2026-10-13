@@ -21,5 +21,25 @@
     "total-vehicles": "total vehicles",
     "available-capacity": "available capacity",
     "vehicles": "vehicles in section"
+  },
+  "vehicle-inventory-item": {
+    "title": "new vehicle inventory item",
+    "subtitle": "add vehicle inventory items to your collection",
+    "form": "new vehicle inventory item form",
+    "section": "showroom section",
+    "select-section": "select a showroom section",
+    "vehicle": "vehicle",
+    "select-vehicle": "select a vehicle",
+    "quantity": "quantity",
+    "available-capacity": "available capacity: {capacity}",
+    "capacity-exceeded": "quantity exceeds the available capacity of the section",
+    "create-error": "the vehicle inventory item could not be registered",
+    "create": "create",
+    "cancel": "cancel"
+  },
+  "page-not-found": {
+    "title": "page not found",
+    "message": "the route {path} was not found",
+    "back-home": "back to home"
   }
 }

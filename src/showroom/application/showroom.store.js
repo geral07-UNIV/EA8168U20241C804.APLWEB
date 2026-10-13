@@ -18,7 +18,10 @@ export const useShowroomStore = defineStore('showroom', {
         getVehicleInventoryItemsBySectionId: state => sectionId =>
             state.vehicleInventoryItems.filter(item => item.sectionId === sectionId),
         getShowroomSectionById: state => id =>
-            state.showroomSections.find(section => section.id === id) ?? null
+            state.showroomSections.find(section => section.id === id) ?? null,
+        getAvailableCapacityBySectionId() {
+            return sectionId => this.getShowroomSectionById(sectionId)?.getAvailableCapacity(this.vehicleInventoryItems) ?? 0;
+        }
     },
     actions: {
         loadShowroom() {
@@ -39,6 +42,15 @@ export const useShowroomStore = defineStore('showroom', {
             }).catch(message => {
                 this.errors.push(message);
                 this.vehicleInventoryItems = [];
+            });
+        },
+        createVehicleInventoryItem(vehicleInventoryItem) {
+            if (vehicleInventoryItem.quantity > this.getAvailableCapacityBySectionId(vehicleInventoryItem.sectionId)) {
+                return Promise.reject('quantity exceeds the available capacity of the section');
+            }
+            const request = VehicleInventoryItemAssembler.toRequestFromEntity(vehicleInventoryItem);
+            return showroomApi.createVehicleInventoryItem(request).then(response => {
+                this.vehicleInventoryItems.push(VehicleInventoryItemAssembler.toEntityFromResource(response.data));
             });
         }
     }

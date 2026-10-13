@@ -21,5 +21,25 @@
     "total-vehicles": "total de vehiculos",
     "available-capacity": "capacidad disponible",
     "vehicles": "vehiculos en la seccion"
+  },
+  "vehicle-inventory-item": {
+    "title": "nuevo item de inventario de vehiculos",
+    "subtitle": "agrega items de inventario de vehiculos a tu coleccion",
+    "form": "formulario de nuevo item de inventario de vehiculos",
+    "section": "seccion del showroom",
+    "select-section": "selecciona una seccion del showroom",
+    "vehicle": "vehiculo",
+    "select-vehicle": "selecciona un vehiculo",
+    "quantity": "cantidad",
+    "available-capacity": "capacidad disponible: {capacity}",
+    "capacity-exceeded": "la cantidad supera la capacidad disponible de la seccion",
+    "create-error": "no se pudo registrar el item de inventario de vehiculos",
+    "create": "crear",
+    "cancel": "cancelar"
+  },
+  "page-not-found": {
+    "title": "pagina no encontrada",
+    "message": "la ruta {path} no fue encontrada",
+    "back-home": "volver al inicio"
   }
 }

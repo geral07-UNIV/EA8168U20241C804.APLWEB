@@ -1,9 +1,9 @@
-# astara showroom management
+## astara showroom management
 
-## overview
+### overview
 management platform for the astara retail peru vehicle showroom and inventory management system, built with vue 3, primevue, pinia, vue-router and vue-i18n
 
-## authorship
+### authorship
 - Student: Geraldine Suarez Chinga
 - Student code: U20241C804
 - Ncr: 8168

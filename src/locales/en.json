@@ -1,19 +1,25 @@
 {
-  "read-more": "read more",
   "unavailable-content": "service is unavailable now",
-  "authoring-phrase": {
-    "intro": "made with",
-    "use": "using",
-    "author": "by {brand} developer team"
+  "toolbar": {
+    "title": "astara showroom management",
+    "logo": "astara retail peru logo",
+    "open-menu": "open navigation menu"
   },
-  "article": {
-    "share": "share",
-    "copy-to-clipboard": "copy to clipboard",
-    "by": "by",
-    "published-on": "published on"
+  "sidebar": {
+    "navigation": "main navigation",
+    "home": "home",
+    "new-vehicle-inventory-item": "new vehicle inventory item",
+    "language": "language selection"
   },
-  "footer": {
-    "powered-by": "powered by",
-    "and": "and"
+  "home": {
+    "title": "home",
+    "content": "premium vehicles & showroom management delivered to your dealership"
+  },
+  "showroom-section": {
+    "collections": "my showroom collections",
+    "no-vehicles": "no vehicles",
+    "total-vehicles": "total vehicles",
+    "available-capacity": "available capacity",
+    "vehicles": "vehicles in section"
   }
 }

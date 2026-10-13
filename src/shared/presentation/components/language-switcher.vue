@@ -2,22 +2,15 @@
 import { useI18n } from 'vue-i18n';
 
 /**
- * presentation component for switching the application's locale
- *
- * @remarks
- * uses the vue-i18n instance to display and update the current language
+ * presentation component for switching the application locale between en and es
  */
-const { locale, availableLocales } = useI18n();
+const { t, locale, availableLocales } = useI18n();
 </script>
 
 <template>
-  <pv-select-button v-model="locale" :options="availableLocales">
-    <template #option="slotProps">
-      <span>{{ slotProps.option }}</span>
-    </template>
-  </pv-select-button>
+  <pv-select-button v-model="locale" :options="availableLocales" :allow-empty="false"
+                    :aria-label="t('sidebar.language')"/>
 </template>
 
 <style scoped>
-
 </style>

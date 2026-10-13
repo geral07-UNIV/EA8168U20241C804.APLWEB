@@ -1,19 +1,25 @@
 {
-  "read-more": "ver mas",
   "unavailable-content": "servicio no disponible en este momento",
-  "authoring-phrase": {
-    "intro": "hecho con",
-    "use": "utilizando",
-    "author": "por el equipo de desarrollo de {brand}"
+  "toolbar": {
+    "title": "gestion de showroom astara",
+    "logo": "logo de astara retail peru",
+    "open-menu": "abrir menu de navegacion"
   },
-  "article": {
-    "share": "compartir",
-    "copy-to-clipboard": "copiar al portapapeles",
-    "by": "por",
-    "published-on": "publicado el"
+  "sidebar": {
+    "navigation": "navegacion principal",
+    "home": "inicio",
+    "new-vehicle-inventory-item": "nuevo item de inventario de vehiculos",
+    "language": "seleccion de idioma"
   },
-  "footer": {
-    "powered-by": "contenido proporcionado por",
-    "and": "y"
+  "home": {
+    "title": "inicio",
+    "content": "vehiculos premium y gestion de showroom entregados a tu concesionario"
+  },
+  "showroom-section": {
+    "collections": "mis colecciones de showroom",
+    "no-vehicles": "sin vehiculos",
+    "total-vehicles": "total de vehiculos",
+    "available-capacity": "capacidad disponible",
+    "vehicles": "vehiculos en la seccion"
   }
 }

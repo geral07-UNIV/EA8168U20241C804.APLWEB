@@ -14,6 +14,7 @@ interface ImportMetaEnv {
   readonly VITE_PRODUCTS_BY_CATEGORY_ENDPOINT_PATH: string;
   readonly VITE_LOGO_API_URL: string;
   readonly VITE_LOGO_PUBLISHABLE_API_KEY: string;
+  readonly VITE_COMPANY_DOMAIN: string;
 }
 
 interface ImportMeta {

@@ -1,15 +1,9 @@
-<script setup>
-  import { useI18n } from 'vue-i18n'
-  import Layout from "./shared/presentation/components/layout.vue";
+<script setup lang="js">
+import Layout from "./shared/presentation/components/layout.vue";
 
-  /**
-   * presentation shell component
-   *
-   * @remarks
-   * hosts the application layout and keeps bootstrapping concerns out of
-   * feature components
-   */
-  const { t } = useI18n()
+/**
+ * presentation shell component that hosts the application layout
+ */
 </script>
 
 <template>
@@ -17,5 +11,4 @@
 </template>
 
 <style scoped>
-
 </style>

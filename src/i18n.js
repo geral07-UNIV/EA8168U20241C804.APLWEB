@@ -4,7 +4,7 @@ import es from "./locales/es.json";
 import {createI18n} from "vue-i18n";
 
 /**
- * shared internationalization service used across presentation modules
+ * shared internationalization service with english as default locale
  */
 const i18n = createI18n({
     legacy: false,
